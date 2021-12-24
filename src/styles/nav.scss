@@ -1,0 +1,50 @@
+.navbar {
+  position: absolute !important;
+  z-index: 100;
+  width: 100%;
+  height: auto;
+  .navbar-brand {
+    padding-left: 65px;
+  }
+  #navbarNav {
+    .navbar-nav {
+      padding-right: 65px;
+      align-items: center;
+      .nav-item {
+        margin-right: 30px;
+        .nav-link {
+          .nos {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            color: #66fcf1;
+            margin-right: 5px;
+          }
+          .link-name {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 21px;
+            color: #c5c6c8;
+          }
+        }
+      }
+      .dark-light-toggle {
+        cursor: pointer;
+        .dark-light {
+          transition: all 0.25s ease-in-out;
+        }
+      }
+    }
+  }
+}
+.navbar.bg-light {
+  background-color: transparent !important;
+}
+.dark-light.rotate-left {
+  transform: rotate(180deg);
+}
+.dark-light.rotate-right {
+  transform: rotate(0deg);
+}

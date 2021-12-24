@@ -1,0 +1,72 @@
+.header {
+  height: auto;
+  background-color: #202833;
+  padding-top: 140px;
+  padding-left: 8.5rem;
+  position: relative;
+  padding-bottom: 40px ;
+  .container {
+    z-index: 50;
+    .name {
+      p {
+        margin: 0;
+      }
+      .header-content {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 84px;
+        color: #c5c6c8;
+      }
+      .header-sub-heading {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 60px;
+        line-height: 84px;
+        color: #818181;
+      }
+    }
+    .some-info {
+      margin-top: 15px;
+      max-width: 840px;
+      .some-info-content {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #c5c6c8;
+      }
+    }
+    .contact-button {
+      margin-top: 30px;
+      button {
+        background-color: transparent;
+        border: 2px solid #66fcf1;
+        padding: 22px 48px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #66fcf1;
+        transition: all 0.25s ease-in-out;
+        border-radius: 5px;
+        &:hover {
+          background-color: #66fcf1;
+          color: #202833;
+        }
+      }
+    }
+  }
+  .slogan-area {
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 240px;
+    color: rgba(78, 78, 78, 0.64);
+    position: relative;
+    top: 20px;
+    left: -17%;
+    z-index: 1;
+  }
+}
