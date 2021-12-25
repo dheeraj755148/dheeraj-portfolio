@@ -84,8 +84,8 @@
   stroke-linejoin: bevel;
   stroke-dasharray: 155 155;
   stroke-dashoffset: 155;
-  -webkit-transition: fill 1.5s, stroke-dashoffset 1s, stroke-opacity 1.5s ease;
-  transition: fill 1.5s, stroke-dashoffset 1s, stroke-opacity 1.5s ease;
+  -webkit-transition: fill 3s, stroke-dashoffset 1s, stroke-opacity 3s ease;
+  transition: fill 3s, stroke-dashoffset 1s, stroke-opacity 3s ease;
 }
 
 .skills .skills-obj .skill-sets .overlay:hover {
@@ -128,5 +128,15 @@
   bottom: -20%;
   z-index: 1;
   cursor: none;
+}
+
+.make-pattern {
+  background: transparent;
+}
+
+.make-pattern .icon svg path {
+  fill: #46a29f !important;
+  stroke-dashoffset: 0 !important;
+  stroke-opacity: 0 !important;
 }
 /*# sourceMappingURL=skill.css.map */

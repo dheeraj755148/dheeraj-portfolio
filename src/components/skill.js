@@ -1,6 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/skill.css";
+
 function Skill() {
+  useEffect(() => {
+    const temp = document.querySelector(".skills-obj");
+    const callback = (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("make-pattern");
+        }
+      });
+    };
+    const options = {};
+
+    const myObserver = new IntersectionObserver(callback, options);
+    myObserver.observe(temp);
+  }, []);
+
   return (
     <div className="skills">
       <div className="container">
@@ -15,7 +31,7 @@ function Skill() {
           <div className="skills-obj">
             <div className="skill-sets">
               <div className="is-relative">
-                <div className="overlay">
+                <div className="overlay ov-sk">
                   <div className="icon">
                     <svg
                       width="148"
@@ -35,7 +51,7 @@ function Skill() {
             </div>
             <div className="skill-sets">
               <div className="is-relative">
-                <div className="overlay">
+                <div className="overlay ov-sk">
                   <div className="icon">
                     <svg
                       width="148"
@@ -55,7 +71,7 @@ function Skill() {
             </div>
             <div className="skill-sets">
               <div className="is-relative">
-                <div className="overlay">
+                <div className="overlay ov-sk">
                   <div className="icon">
                     <svg
                       width="148"
@@ -77,7 +93,7 @@ function Skill() {
             </div>
             <div className="skill-sets">
               <div className="is-relative">
-                <div className="overlay">
+                <div className="overlay ov-sk">
                   <div className="icon">
                     <svg
                       width="148"

@@ -28,10 +28,8 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   max-width: 710px;
+  margin-bottom: 20px;
 }
 
 .experience .flow .exp-box .trail {
@@ -48,7 +46,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 240px;
 }
 
 .experience .flow .exp-box .trail .head {
@@ -75,8 +72,13 @@
 }
 
 .experience .flow .exp-box .trail .path {
-  border-right: 2px dashed #46A29F;
+  border-right: 2px dashed #46a29f;
   height: 80%;
+}
+
+.experience .flow .exp-box .trail .path-traced {
+  border-right: 2px solid #46a29f;
+  height: 65%;
 }
 
 .experience .flow .exp-box .info .header-info p {
@@ -128,5 +130,21 @@
   line-height: 30px;
   letter-spacing: 0.05em;
   color: #c5c6c8;
+}
+
+.experience .code-slogan {
+  font-family: "Bodoni Moda", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200px;
+  line-height: 240px;
+  /* identical to box height */
+  color: rgba(78, 78, 78, 0.64);
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  z-index: 1;
+  position: absolute;
+  right: -8%;
+  top: 30%;
 }
 /*# sourceMappingURL=experience.css.map */

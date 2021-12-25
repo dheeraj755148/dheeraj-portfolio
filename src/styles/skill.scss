@@ -66,12 +66,11 @@
               stroke-linejoin: bevel;
               stroke-dasharray: 155 155;
               stroke-dashoffset: 155;
-              transition: fill 1.5s, stroke-dashoffset 1s,
-                stroke-opacity 1.5s ease;
+              transition: fill 3s, stroke-dashoffset 1s,
+                stroke-opacity 3s ease;
             }
           }
         }
-
         &:hover {
           background: transparent;
           .icon {
@@ -115,5 +114,19 @@
     bottom: -20%;
     z-index: 1;
     cursor: none;
+  }
+}
+
+
+.make-pattern{
+  background: transparent;
+  .icon {
+    svg {
+      path {
+        fill: rgba(70, 162, 159, 1) !important;
+        stroke-dashoffset: 0 !important;
+        stroke-opacity: 0 !important;
+      }
+    }
   }
 }

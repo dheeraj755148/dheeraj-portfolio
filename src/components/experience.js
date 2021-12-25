@@ -12,14 +12,15 @@ function Experience() {
             <div className="exp-box">
               <div className="trail">
                 <div className="head">
-                    <div className="dot"></div>
+                  <div className="dot"></div>
                 </div>
                 <div className="path"></div>
               </div>
               <div className="info">
                 <div className="header-info">
                   <p className="name">Edunify - Web Developer</p>
-                  <p className="time">03/2021 - </p><p className="present">Present</p>
+                  <p className="time">03/2021 - </p>
+                  <p className="present">Present</p>
                 </div>
                 <div className="more">
                   <p>- Designed and Developed company website</p>
@@ -38,9 +39,57 @@ function Experience() {
                 </div>
               </div>
             </div>
+            <div className="exp-box">
+              <div className="trail">
+                <div className="head">
+                  <div className="dot"></div>
+                </div>
+                <div className="path-traced"></div>
+              </div>
+              <div className="info">
+                <div className="header-info">
+                  <p className="name">
+                    SanRon Consultancy Services - Web Developer Intern
+                  </p>
+                  <p className="time">08/2020 - </p>
+                  <p className="present">10/2020</p>
+                </div>
+                <div className="more">
+                  <p>- Designed and Developed modal for company website</p>
+                  <p>
+                    - Designed and Developed a small intern project with backend
+                    (CMS Management)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="exp-box">
+              <div className="trail">
+                <div className="head">
+                  <div className="dot"></div>
+                </div>
+                <div className="path-traced"></div>
+              </div>
+              <div className="info">
+                <div className="header-info">
+                  <p className="name">
+                    Jetic Healthcare Pvt - Jetic Healthcare Pvt
+                  </p>
+                  <p className="time">12/2019 - </p>
+                  <p className="present">1/2020</p>
+                </div>
+                <div className="more">
+                  <p>
+                    - Worked on medical equipment - OT lights, Baby Warmers, and
+                    Vein Finder for sale
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <div className="code-slogan">Code</div>
     </div>
   );
 }

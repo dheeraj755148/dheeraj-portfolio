@@ -21,14 +21,15 @@
     .exp-box {
       display: flex;
       justify-content: space-between;
-      align-items: center;
+      //align-items: center;
       max-width: 710px;
+      margin-bottom: 20px;
       .trail {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          height: 240px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        //height: 240px;
         .head {
           width: 40px;
           height: 40px;
@@ -44,9 +45,13 @@
             background: #46a29f;
           }
         }
-        .path{
-            border-right: 2px dashed #46A29F;
-            height: 80%;
+        .path {
+          border-right: 2px dashed #46a29f;
+          height: 80%;
+        }
+        .path-traced {
+          border-right: 2px solid #46a29f;
+          height: 65%;
         }
       }
       .info {
@@ -99,5 +104,19 @@
         }
       }
     }
+  }
+  .code-slogan {
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 240px;
+    /* identical to box height */
+    color: rgba(78, 78, 78, 0.64);
+    transform: rotate(-90deg);
+    z-index: 1;
+    position: absolute;
+    right: -8%;
+    top: 30%;
   }
 }
