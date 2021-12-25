@@ -103,7 +103,7 @@ function Skill() {
         </div>
       </div>
       <div className="react-slogan">React.</div>
-      <div className="css-slogan">CSS.</div>
+      {/* <div className="css-slogan">Javascript.</div> */}
     </div>
   );
 }

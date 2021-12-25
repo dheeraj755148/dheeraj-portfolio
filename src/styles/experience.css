@@ -1,0 +1,132 @@
+.experience {
+  padding: 5rem 0;
+  padding-left: 8.5rem;
+  height: auto;
+  background-color: #202833;
+  overflow: hidden;
+  position: relative;
+}
+
+.experience .exp {
+  z-index: 100;
+}
+
+.experience .exp .header-pro {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 84px;
+  color: #c5c6c8;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.experience .flow .exp-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 710px;
+}
+
+.experience .flow .exp-box .trail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 240px;
+}
+
+.experience .flow .exp-box .trail .head {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #66fcf1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.experience .flow .exp-box .trail .head .dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #46a29f;
+}
+
+.experience .flow .exp-box .trail .path {
+  border-right: 2px dashed #46A29F;
+  height: 80%;
+}
+
+.experience .flow .exp-box .info .header-info p {
+  margin: 0;
+}
+
+.experience .flow .exp-box .info .header-info .name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 125% */
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.experience .flow .exp-box .info .header-info .time {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* or 125% */
+  letter-spacing: 0.05em;
+  color: #66fcf1;
+  display: inline;
+}
+
+.experience .flow .exp-box .info .header-info .present {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  /* or 125% */
+  letter-spacing: 0.05em;
+  color: #66fcf1;
+  display: inline;
+}
+
+.experience .flow .exp-box .info .more {
+  margin-top: 20px;
+}
+
+.experience .flow .exp-box .info .more p {
+  margin: 0;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #c5c6c8;
+}
+/*# sourceMappingURL=experience.css.map */

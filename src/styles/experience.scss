@@ -1,0 +1,103 @@
+.experience {
+  padding: 5rem 0;
+  padding-left: 8.5rem;
+  height: auto;
+  background-color: #202833;
+  overflow: hidden;
+  position: relative;
+  .exp {
+    z-index: 100;
+    .header-pro {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 60px;
+      line-height: 84px;
+      color: #c5c6c8;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+  }
+  .flow {
+    .exp-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 710px;
+      .trail {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          height: 240px;
+        .head {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          border: 2px solid #66fcf1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .dot {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #46a29f;
+          }
+        }
+        .path{
+            border-right: 2px dashed #46A29F;
+            height: 80%;
+        }
+      }
+      .info {
+        .header-info {
+          p {
+            margin: 0;
+          }
+          .name {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            /* or 125% */
+            letter-spacing: 0.05em;
+            color: #ffffff;
+          }
+          .time {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 30px;
+            /* or 125% */
+            letter-spacing: 0.05em;
+            color: #66fcf1;
+            display: inline;
+          }
+          .present {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 30px;
+            /* or 125% */
+            letter-spacing: 0.05em;
+            color: #66fcf1;
+            display: inline;
+          }
+        }
+        .more {
+          margin-top: 20px;
+          p {
+            margin: 0;
+            margin-bottom: 10px;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 30px;
+            letter-spacing: 0.05em;
+            color: #c5c6c8;
+          }
+        }
+      }
+    }
+  }
+}

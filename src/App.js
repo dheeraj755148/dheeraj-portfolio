@@ -7,6 +7,7 @@ import "./styles/main.css";
 import Myporjects from "./components/projects";
 import Myself from "./components/myself";
 import Skill from "./components/skill";
+import Experience from "./components/experience";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <Myporjects />
       <Myself />
       <Skill />
+      <Experience />
     </>
   );
 }
