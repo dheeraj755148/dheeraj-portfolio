@@ -4,7 +4,9 @@ import OfficialLinks from "./components/officialLinks";
 import Mail from "./components/mail";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/main.css";
-import Myporjects from "./components/myself";
+import Myporjects from "./components/projects";
+import Myself from "./components/myself";
+import Skill from "./components/skill";
 function App() {
   return (
     <>
@@ -13,6 +15,8 @@ function App() {
       <OfficialLinks />
       <Mail />
       <Myporjects />
+      <Myself />
+      <Skill />
     </>
   );
 }

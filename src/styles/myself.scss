@@ -1,0 +1,130 @@
+.myself {
+  padding: 5rem 0;
+  padding-left: 8.5rem;
+  height: auto;
+  background-color: #202833;
+  overflow: hidden;
+  position: relative;
+  .myself-area {
+    z-index: 100;
+    .header-pro {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 60px;
+      line-height: 84px;
+      color: #c5c6c8;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+    .header-pro-sub {
+      max-width: 660px;
+
+      p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #c5c6c8;
+        margin-bottom: 20px;
+      }
+    }
+    .resume-bt {
+      margin-top: 30px;
+      button {
+        background: transparent;
+        border: 2px solid #66fcf1;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #66fcf1;
+        padding: 22px 48px;
+        transition: all 0.25s ease-in-out;
+        &:hover {
+          color: #000;
+          background: #66fcf1;
+        }
+      }
+    }
+  }
+  .img-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    .img-box {
+      width: 350px;
+      height: 350px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 100;
+      margin-left: -30px;
+      img {
+        border: 2px solid #46a29f;
+        max-width: 100%;
+      }
+    }
+    .img-bg-box {
+      width: 350px;
+      height: 350px;
+      background: #66fcf1;
+      position: absolute;
+      z-index: 1;
+      bottom: 55px;
+    }
+  }
+  .quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -8.5rem;
+    margin-top: 60px;
+    position: relative;
+    .start p,
+    .end p {
+      font-family: "Bodoni Moda", serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 140px;
+      line-height: 240px;
+      color: rgba(78, 78, 78, 0.64);
+    }
+    .end p {
+      transform: rotate(-180deg);
+    }
+    .quote-area {
+      p {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 84px;
+        color: #ffffff;
+        &:before {
+          content: "";
+          position: absolute;
+          width: 50%;
+          height: 1px;
+          bottom: 30px;
+          left: 25%;
+          border-bottom: 6px solid rgba(78, 78, 78, 0.56);
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  .myself-slogan {
+    font-family: "Bodoni Moda", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 200px;
+    line-height: 240px;
+    color: rgba(78, 78, 78, 0.64);
+    position: absolute;
+    left: -7%;
+    bottom: 45%;
+    z-index: 1;
+    cursor: none;
+  }
+}

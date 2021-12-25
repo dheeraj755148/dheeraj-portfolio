@@ -1,96 +1,49 @@
 import React from "react";
-import "../styles/myporjects.css";
-import Pokedex from "../images/pokedex.png";
-import Tic from '../images/tictactoe.png'
-import Anime from '../images/anime.png'
-import RPS from '../images/rock.png'
-function Myporjects() {
+import "../styles/myself.css";
+import MyPic from "../images/myself.jpg";
+function Myself() {
   return (
-    <div className="myporjects">
+    <div className="myself">
       <div className="container">
         <div className="row">
-          <div className="col-lg-12 col-md-12 col-sm-12 header-projects">
-            <p className="header-pro">My Projects</p>
+          <div className="col-lg-6 col-md-6 col-sm-12 myself-area">
+            <p className="header-pro">Me, Myself and I</p>
             <div className="header-pro-sub">
-              A small gallery of recent projects chosen by me. I've done them
-              all together with amazing people from companies. It's only a drop
-              in the ocean compared to the entire list. Interested to see some
-              more?
+              <p>
+                Hello, Myself Dheeraj Dayakaran. I am into Web Development from
+                last 3 years. I enjoy building interactive and beautiful web
+                pages from SCRATCH.
+              </p>
+              <p>
+                Currently pursuing MTech in Computer Science and Engineering at
+                Amrita Vishw Vidyapeeth
+              </p>
+              <p>
+                My speciality is front-end web design and development, pushing
+                pixels to its limit in figma and turning them into beautiful and
+                semantic HTML and CSS.
+              </p>
+            </div>
+            <div className="resume-bt">
+              <button>Resume</button>
             </div>
           </div>
-          <div className="projects-section">
-            <div className="custom-cards">
-              <div className="card-parent">
-                <div className="card-holder-bg">
-                  <img src={Pokedex} alt="pokedex" />
-                </div>
-                <div className="overlay">
-                  <span>Pokedex</span>
-                  <div></div>
-                </div>
-              </div>
+          <div className="col-lg-6 col-md-6 col-sm-12 img-area">
+            <div className="img-box">
+              <img src={MyPic} alt="Dheeraj" />
             </div>
-            <div className="custom-cards">
-              <div className="card-parent">
-                <div className="card-holder-bg new-bg">
-                  <img src={Tic} alt="tic-tac-toe" />
-                </div>
-                <div className="overlay">
-                  <span>Tic-Tac-Toe</span>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-            <div className="custom-cards">
-              <div className="card-parent">
-                <div className="card-holder-bg">
-                  <img className="anime" src={Anime} alt="Anime app" />
-                </div>
-                <div className="overlay">
-                  <span>Anime Hunt</span>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-            <div className="custom-cards">
-              <div className="card-parent">
-                <div className="card-holder-bg new-bg">
-                  <img src={Pokedex} alt="pokedex" />
-                </div>
-                <div className="overlay">
-                  <span>Pokedex</span>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-            <div className="custom-cards">
-              <div className="card-parent">
-                <div className="card-holder-bg">
-                  <img src={RPS} alt="rock-paper-scissors" />
-                </div>
-                <div className="overlay">
-                  <span>Rock Paper Scissor</span>
-                  <div></div>
-                </div>
-              </div>
-            </div>
-            <div className="custom-cards">
-              <div className="card-parent">
-                <div className="card-holder-bg new-bg">
-                  <img src={Pokedex} alt="pokedex" />
-                </div>
-                <div className="overlay">
-                  <span>Pokedex</span>
-                  <div></div>
-                </div>
-              </div>
-            </div>
+            <div className="img-bg-box"></div>
           </div>
         </div>
       </div>
-      <div className="work-slogan">Work</div>
+      <div className="myself-slogan">Dheeraj</div>
+      <div className="quote">
+        <span className="start"><p>“</p></span>
+        <span className="quote-area"><p>while(!(succeed = try()))</p></span>
+        <span className="end"><p>“</p></span>
+      </div>
     </div>
   );
 }
 
-export default Myporjects;
+export default Myself;

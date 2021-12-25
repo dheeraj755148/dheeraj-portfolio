@@ -1,0 +1,132 @@
+.skills {
+  padding: 5rem 0;
+  padding-left: 8.5rem;
+  height: auto;
+  background-color: #0b0c10;
+  overflow: hidden;
+  position: relative;
+}
+
+.skills .skills-area {
+  z-index: 100;
+}
+
+.skills .skills-area .header-pro {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 84px;
+  color: #66fcf1;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.skills .skills-area .header-pro-sub {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #c5c6c8;
+  max-width: 880px;
+}
+
+.skills .skills-obj {
+  z-index: 100;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: -13.5rem;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  height: 200px;
+}
+
+.skills .skills-obj .skill-sets {
+  margin: 15px;
+}
+
+.skills .skills-obj .skill-sets .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.skills .skills-obj .skill-sets .overlay .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 68px;
+  height: 68px;
+  display: inline-block;
+}
+
+.skills .skills-obj .skill-sets .overlay .icon svg path {
+  fill: rgba(70, 162, 159, 0);
+  stroke: #46a29f;
+  stroke-width: 0.05em;
+  stroke-opacity: 1;
+  stroke-linecap: butt;
+  stroke-linejoin: bevel;
+  stroke-dasharray: 155 155;
+  stroke-dashoffset: 155;
+  -webkit-transition: fill 1.5s, stroke-dashoffset 1s, stroke-opacity 1.5s ease;
+  transition: fill 1.5s, stroke-dashoffset 1s, stroke-opacity 1.5s ease;
+}
+
+.skills .skills-obj .skill-sets .overlay:hover {
+  background: transparent;
+}
+
+.skills .skills-obj .skill-sets .overlay:hover .icon svg path {
+  fill: #46a29f;
+  stroke-dashoffset: 0;
+  stroke-opacity: 0;
+}
+
+.skills .skills-obj .skill-sets .is-relative {
+  position: relative;
+}
+
+.skills .react-slogan {
+  font-family: "Bodoni Moda", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200px;
+  line-height: 240px;
+  color: rgba(78, 78, 78, 0.64);
+  position: absolute;
+  right: -5%;
+  top: 15px;
+  z-index: 1;
+  cursor: none;
+}
+
+.skills .css-slogan {
+  font-family: "Bodoni Moda", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200px;
+  line-height: 240px;
+  color: rgba(78, 78, 78, 0.64);
+  position: absolute;
+  left: -7%;
+  bottom: -20%;
+  z-index: 1;
+  cursor: none;
+}
+/*# sourceMappingURL=skill.css.map */
