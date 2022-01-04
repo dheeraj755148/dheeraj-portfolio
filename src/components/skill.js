@@ -8,6 +8,8 @@ function Skill() {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("make-pattern");
+        } else {
+          entry.target.classList.remove("make-pattern");
         }
       });
     };

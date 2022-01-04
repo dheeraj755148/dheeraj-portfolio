@@ -1,0 +1,119 @@
+.contact {
+  padding: 5rem 0;
+  padding-left: 8.5rem;
+  height: auto;
+  background-color: #0b0c10;
+  overflow: hidden;
+  position: relative;
+}
+
+.contact .cont {
+  z-index: 100;
+}
+
+.contact .cont .header-pro {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 84px;
+  color: #66fcf1;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.contact .tag-cont {
+  max-width: 700px;
+}
+
+.contact .tag-cont p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #c5c6c8;
+}
+
+.contact .form-area {
+  max-width: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.contact .form-area input {
+  width: 305px;
+  height: 50px;
+  padding-left: 20px;
+  margin: 10px;
+  background: #202833;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: #c5c6c8;
+  outline: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.contact .form-area input:focus {
+  outline: 1px solid #66fcf1;
+}
+
+.contact .form-area textarea {
+  padding-left: 20px;
+  margin: 10px;
+  margin-left: 0;
+  width: 100%;
+  background: #202833;
+  border: none;
+  height: 200px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  color: #c5c6c8;
+  padding-top: 20px;
+  outline: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.contact .form-area textarea:focus {
+  outline: 1px solid #66fcf1;
+}
+
+.contact .form-area input.name,
+.contact .form-area input.subject {
+  margin-left: 0;
+}
+
+.contact .form-area input.subject {
+  width: 100%;
+}
+
+.contact .form-area .submit-form {
+  border: 2px solid #66fcf1;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #66fcf1;
+  padding: 22px 36px;
+  background: transparent;
+  margin-top: 5px;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.contact .form-area .submit-form:hover {
+  background: #66fcf1;
+  color: #0B0C10;
+}
+/*# sourceMappingURL=contact.css.map */

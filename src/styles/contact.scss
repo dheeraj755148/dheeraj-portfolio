@@ -1,0 +1,99 @@
+.contact {
+  padding: 5rem 0;
+  padding-left: 8.5rem;
+  height: auto;
+  background-color: #0b0c10;
+  overflow: hidden;
+  position: relative;
+  .cont {
+    z-index: 100;
+    .header-pro {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 60px;
+      line-height: 84px;
+      color: #66fcf1;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+  }
+  .tag-cont {
+    max-width: 700px;
+    p {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      color: #c5c6c8;
+    }
+  }
+  .form-area {
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+
+    input {
+      width: 305px;
+      height: 50px;
+      padding-left: 20px;
+      margin: 10px;
+      background: #202833;
+      border: none;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 21px;
+      color: #c5c6c8;
+      outline: none;
+      transition: all 0.25s ease-in-out;
+      &:focus {
+        outline: 1px solid #66fcf1;
+      }
+    }
+    textarea {
+      padding-left: 20px;
+      margin: 10px;
+      margin-left: 0;
+      width: 100%;
+      background: #202833;
+      border: none;
+      height: 200px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 15px;
+      line-height: 21px;
+      color: #c5c6c8;
+      padding-top: 20px;
+      outline: none;
+      transition: all 0.25s ease-in-out;
+      &:focus {
+        outline: 1px solid #66fcf1;
+      }
+    }
+    input.name,
+    input.subject {
+      margin-left: 0;
+    }
+    input.subject {
+      width: 100%;
+    }
+    .submit-form {
+      border: 2px solid #66fcf1;
+      box-sizing: border-box;
+      border-radius: 5px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 21px;
+      color: #66fcf1;
+      padding: 22px 36px;
+      background: transparent;
+      margin-top: 5px;
+      transition: all 0.25s ease-in-out;
+      &:hover{
+          background: #66fcf1;
+          color: #0B0C10;
+      }
+    }
+  }
+}

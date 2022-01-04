@@ -8,6 +8,7 @@ import Myporjects from "./components/projects";
 import Myself from "./components/myself";
 import Skill from "./components/skill";
 import Experience from "./components/experience";
+import Contact from "./components/contact";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
       <Myself />
       <Skill />
       <Experience />
+      <Contact />
     </>
   );
 }
